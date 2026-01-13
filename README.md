@@ -1,4 +1,4 @@
-# Cheap Custom ESP32 Drone
+# Cheap Drone
 
 I designed a custom drone flight controller PCB based on the ESP32-WROOM-32. The board uses USB-C charging, regulated 3.3 V power delivery, and onboard IMU sensing using the MPU-6050. The PCB is currently being fabricated, and I am actively working on automatic stabilization code for my motors.
 
