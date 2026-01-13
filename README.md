@@ -2,7 +2,6 @@
 
 I designed a custom drone flight controller PCB based on the ESP32-WROOM-32. The board uses USB-C charging, regulated 3.3 V power delivery, and onboard IMU sensing using the MPU-6050. The PCB is currently being fabricated, and I am actively working on automatic stabilization code for my motors.
 
----
 
 ## Overview
 The goal of this project was to design a low-cost, custom flight controller PCB for a quadcopter drone while gaining hands-on experience with power management, embedded hardware design, and PCB layout. Instead of using a real controller, I wanted to use a free app that can be downloaded from the App store since ESP32 supports Wifi and Bluetooth.
@@ -12,7 +11,6 @@ The design is organized into three main parts:
 - ESP32 control and programming
 - Motors and sensors
 
----
 
 ## Power Management
 Power management was a major focus of this design. The board uses a battery charging circuit along with a voltage regulator to safely power all components. The incoming voltage is regulated to 3.3 V using the MIC5219-3.3YM5, which supplies power to both the ESP32 and the MPU-6050.
