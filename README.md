@@ -19,7 +19,6 @@ When the board is connected to USB-C, the voltage passes through a Schottky diod
 
 Battery charging is handled by the TP4056, which safely manages the LiPo charging process. Two LEDs connected to the TP4056 indicate whether the battery is charging or fully charged. When the USB cable is unplugged, the MOSFET automatically turns on, reconnecting the battery so it can power the system. Decoupling capacitors are placed throughout the power rails to reduce noise and improve voltage stability.
 
----
 
 ## ESP32 Control and Programming
 The +VBUS line is routed before the voltage regulator so it can supply 5 V power to the CP2102 USB-to-UART converter, which requires a higher voltage than the ESP32.
@@ -28,7 +27,6 @@ The USB data lines (D+ and D−) carry compiled code from the computer to the CP
 
 The ESP32 acts as the main controller of the drone. It processes sensor data, controls motor outputs, and manages the overall behavior of the system. Orientation data from the MPU-6050 is used to adjust motor speeds for stabilization. I also added a UART2 (RXD2/TXD2) connector for future expansion and a four-channel SRV connector for motor control signals. Decoupling capacitors here on the 3.3 V rail help minimize noise from switching components.
 
----
 
 ## Motors and Sensors
 The MPU-6050 is used as a 6-axis IMU to measure acceleration and angular velocity. It communicates with the ESP32 over I²C using the SDA and SCL lines, with pull-up resistors included to ensure reliable communication. The sensor operates at 3.3 V and is powered from the regulated supply.
@@ -37,7 +35,6 @@ The MPU-6050 does not control the motors directly. Instead, it sends motion data
 
 Each motor is driven using an SI2302 N-channel MOSFET, allowing low-power control signals from the ESP32 to switch high-current motor loads. The MOSFET gates are driven by the ESP32, the sources are connected to ground, and the drains connect to the motors and battery supply. Since motors generate voltage spikes when switching, flyback diodes are included to protect the MOSFETs and surrounding components.
 
----
 
 ## Current Status
 - Schematic and PCB design completed
@@ -45,7 +42,6 @@ Each motor is driven using an SI2302 N-channel MOSFET, allowing low-power contro
 - PCB fabrication and soldering the components in progress
 - Automatic stabilization firmware under development
 
----
 
 ## Future Work
 - Adding object-tracking cameras
