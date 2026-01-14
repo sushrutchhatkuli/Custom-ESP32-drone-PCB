@@ -1,0 +1,13 @@
+Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; -0.000002 mm] for the current design rules.
+Plotted to 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-F_Cu.gbr'.
+Plotted to 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-B_Cu.gbr'.
+Plotted to 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-F_Paste.gbr'.
+Plotted to 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-B_Paste.gbr'.
+Plotted to 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-F_Mask.gbr'.
+Plotted to 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-B_Mask.gbr'.
+Plotted to 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\sushr\Documents\First Project\espdroneea\espdroneea-job.gbrjob'.
+Info: Done.
+Info: Done.
