@@ -1,0 +1,542 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f719b8ec-3fbb-47ef-a1e2-e3c1970e502b")
+	(paper "A4")
+	(lib_symbols)
+	(text "Sushrut's Drone Project (ESP32)"
+		(exclude_from_sim no)
+		(at 44.45 15.494 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d4fc7bef-3701-4cec-a09c-de790a98e54b")
+	)
+	(wire
+		(pts
+			(xy 177.8 53.34) (xy 180.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ccf100-2279-441f-a288-2cf990b8d1b0")
+	)
+	(wire
+		(pts
+			(xy 177.8 58.42) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222241f1-1fc7-41dd-8b04-596f3431c1b1")
+	)
+	(wire
+		(pts
+			(xy 177.8 55.88) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f9ed8a-7677-4533-a21f-a9f23e00d2d4")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 104.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d2ec0c-3721-4d2a-a0eb-8914cd5a2686")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6ab169-2a69-4282-af4f-872391164c12")
+	)
+	(wire
+		(pts
+			(xy 177.8 44.45) (xy 180.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0aa1b6-64be-4ef0-9f14-a18e996ee639")
+	)
+	(wire
+		(pts
+			(xy 177.8 92.71) (xy 180.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a25de25-f977-40a5-9797-65ed3ab777dc")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c91a63-4b8c-4382-a640-3c8cd1f574f4")
+	)
+	(wire
+		(pts
+			(xy 99.06 44.45) (xy 104.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c723234d-400a-4a0e-a631-4ca5ea950846")
+	)
+	(wire
+		(pts
+			(xy 177.8 41.91) (xy 180.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6aacd2-09f6-4156-8cdc-a56fd0b5c24f")
+	)
+	(wire
+		(pts
+			(xy 177.8 39.37) (xy 180.34 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8110e9-f846-400e-9113-ac87a94a117d")
+	)
+	(wire
+		(pts
+			(xy 99.06 40.64) (xy 104.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26c6e63-3b11-40d5-b814-0ba674c1c667")
+	)
+	(wire
+		(pts
+			(xy 177.8 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae53774-1be2-430d-983f-a6e5fe41e584")
+	)
+	(sheet
+		(at 180.34 31.75)
+		(size 97.79 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3125affe-b3c8-40e0-bf60-f43a9b983a61")
+		(property "Sheetname" "Motors"
+			(at 180.34 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled2.kicad_sch"
+			(at 180.34 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Motor1" input
+			(at 180.34 53.34 180)
+			(uuid "da0470b7-5e5a-444f-bf9c-34533b7c5e0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor2" input
+			(at 180.34 55.88 180)
+			(uuid "2c689bc9-ff5e-41fa-acf2-fea529bbd2a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor3" input
+			(at 180.34 58.42 180)
+			(uuid "a3b9d5a4-8ead-4d74-987b-71f34ba0d5c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor4" input
+			(at 180.34 60.96 180)
+			(uuid "5813a7ca-61c7-423b-a1a4-a3013d20ede6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 180.34 95.25 180)
+			(uuid "caeac743-2a9e-4710-a5b2-df4262923a7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 180.34 92.71 180)
+			(uuid "e75d24ee-b4fd-436e-8a09-3cf1eacc1680")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SRV2" output
+			(at 180.34 71.12 180)
+			(uuid "7c5146c8-c91b-474a-9668-7600879ecb77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED1" input
+			(at 180.34 39.37 180)
+			(uuid "055fe2a5-23ec-4cc0-b072-6058da2ce560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED2" input
+			(at 180.34 41.91 180)
+			(uuid "285c7eb6-6198-4e26-807e-67a4c86dbe42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED3" input
+			(at 180.34 44.45 180)
+			(uuid "8502d02b-66e6-4153-b40f-4ef5c2e89fd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "espdroneea"
+				(path "/f719b8ec-3fbb-47ef-a1e2-e3c1970e502b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 31.75)
+		(size 73.66 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f368d72-482c-41e2-8620-89e65983a8bb")
+		(property "Sheetname" "ESP32"
+			(at 104.14 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled1.kicad_sch"
+			(at 104.14 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 104.14 40.64 180)
+			(uuid "93cab515-bc4e-492f-8542-9e0600f21b17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 104.14 44.45 180)
+			(uuid "5ecc143a-6f87-45fd-b2ac-f1b06ebbe5a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATTERY_VDC" input
+			(at 104.14 74.93 180)
+			(uuid "d5293f1b-c0d7-41b5-949e-9832b90549ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED1" output
+			(at 177.8 39.37 0)
+			(uuid "759487da-56d8-4d41-a5f3-0be17cdca547")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED2" output
+			(at 177.8 41.91 0)
+			(uuid "6f7ffdfd-9827-4b3b-a1dd-2e93a71b690a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED3" output
+			(at 177.8 44.45 0)
+			(uuid "125ef0fe-935c-44f9-9591-3c25d086514e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor1" output
+			(at 177.8 53.34 0)
+			(uuid "febd4ef7-4d88-4a06-8471-3caa491bd73e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor2" output
+			(at 177.8 55.88 0)
+			(uuid "31af166b-9dcb-4270-a2d5-a0100f4a9d8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor3" output
+			(at 177.8 58.42 0)
+			(uuid "873da550-223c-45ba-a177-c8ab2734e790")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor4" output
+			(at 177.8 60.96 0)
+			(uuid "243168e3-7bee-483b-b8ff-d5bb3234d8ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SRV2" input
+			(at 177.8 71.12 0)
+			(uuid "20188939-d99a-46c4-a8bb-c102f3fef5a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 177.8 92.71 0)
+			(uuid "682f5ec0-d8d3-420c-8ea5-d11073c51ce4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 177.8 95.25 0)
+			(uuid "03425684-f029-4d46-9035-8143e7822b13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "espdroneea"
+				(path "/f719b8ec-3fbb-47ef-a1e2-e3c1970e502b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 31.75)
+		(size 82.55 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dde81803-d8f5-4a5c-b70e-92bb2dc230fd")
+		(property "Sheetname" "Power"
+			(at 16.51 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 16.51 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 99.06 40.64 0)
+			(uuid "94f9eb51-ad7c-41a9-b0f1-31e6dfedff6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 99.06 44.45 0)
+			(uuid "a23d0515-b7a6-4c51-b340-30cdbab71555")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATTERY_VDC" output
+			(at 99.06 74.93 0)
+			(uuid "9a5051ac-4519-4acd-b8df-e3d60190060c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "espdroneea"
+				(path "/f719b8ec-3fbb-47ef-a1e2-e3c1970e502b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
